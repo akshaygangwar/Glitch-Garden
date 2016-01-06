@@ -15,6 +15,10 @@ public class MusicManager : MonoBehaviour {
 	}
 	
 	void OnLevelWasLoaded(int level){
-		audioSource.PlayOneShot (levelMusicChangeArray [level]);
+		AudioClip thisLevelMusic = levelMusicChangeArray [level];
+		if (thisLevelMusic) {
+			audioSource.clip = thisLevelMusic;
+			audioSource.Play();
+		}
 	}
 }
