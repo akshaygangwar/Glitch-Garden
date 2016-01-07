@@ -18,7 +18,12 @@ public class MusicManager : MonoBehaviour {
 		AudioClip thisLevelMusic = levelMusicChangeArray [level];
 		if (thisLevelMusic) {
 			audioSource.clip = thisLevelMusic;
+			audioSource.volume = PlayerPrefsManager.GetMasterVolume();
 			audioSource.Play();
 		}
+	}
+
+	public void ChangeVolume(float volume) {
+		audioSource.volume = volume;
 	}
 }
