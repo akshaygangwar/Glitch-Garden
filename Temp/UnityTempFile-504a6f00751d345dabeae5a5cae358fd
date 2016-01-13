@@ -59,6 +59,7 @@
 'Assets/Scripts/Attacker.cs'
 'Assets/Scripts/Defender.cs'
 'Assets/Scripts/Fox.cs'
+'Assets/Scripts/Health.cs'
 'Assets/Scripts/LevelManager.cs'
 'Assets/Scripts/MusicManager.cs'
 'Assets/Scripts/OptionsController.cs'
