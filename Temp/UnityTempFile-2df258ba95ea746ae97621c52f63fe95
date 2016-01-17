@@ -65,6 +65,7 @@
 'Assets/Scripts/OptionsController.cs'
 'Assets/Scripts/PlayerPrefsManager.cs'
 'Assets/Scripts/Projectile.cs'
+'Assets/Scripts/Shooter.cs'
 'Assets/Scripts/Stone.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
